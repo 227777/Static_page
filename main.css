@@ -1,0 +1,516 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width:1280px;
+	max-width: 100px;
+	width:1280px;
+	margin:0 auto;
+}
+
+li {
+	list-style: none;
+}
+
+.top1 .left li {
+	padding: 10px;
+}
+
+.top1 .left li:hover,.top1 .right li:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+.top1 .right li {
+	padding: 10px;
+}
+
+.top1 {
+	background-color: #333333;
+	color: #9E9E9E;
+	font-size: 11px;
+	width: 100%;
+	height: 35px;
+}
+
+.top1 .left li {
+	float: left;
+	margin-left: -8px;
+	padding: 10px;
+}
+
+.top1 .left span {
+	float: left;
+	padding: 10px;
+	margin-left: -10px;
+}
+
+.top1 .right li {
+	float: right;
+	margin-right: 0px;
+}
+
+.top1 .right span {
+	float: right;
+	padding: 10px;
+	margin-left: -18px;
+	margin-right: -12px;
+}
+.triangle
+{
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent; /*这行去掉也行*/
+	border-bottom: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	margin:0 auto;
+	display:inline-block;
+	display:none;
+}
+.tranbox
+{
+	width:130px;
+	height:130px;
+	position:relative;
+	background-color:transparent;
+	left:290px;
+	top:-173px;
+}
+.erweima
+{
+	width:130px;
+	height:130px;
+	background-color: white;
+	position:relative;
+	left:290px;
+	text-align:center;
+	top:-43px;
+	box-shadow: 0px 0px 10px #AAAA;
+}
+.erweima img
+{
+	width:100px;
+	height:100px;
+}
+.l
+{
+	text-align: center;
+}
+
+.fa-shopping-cart {
+	background-color:#444444;
+	margin-top:2px;
+}
+
+/* top2 */
+.top2 {
+	width: 100%;
+	height: 90px;
+	position:relative;
+}
+.MIUIlogo
+{
+	width: 56px;
+	height: 56px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-top:10px;
+}
+.MIUIlogo img {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+}
+
+.font
+{
+	top: 35px;
+    position: relative;
+	left:300px;
+	top:-23px
+}
+.font li {
+	float: left;
+	padding-left:15px;
+}
+
+.search {
+	position: relative;
+    top:-292px;
+	left: 969px;
+}
+.search
+{
+	height:45px;
+	width:260px;
+}
+.search input {
+	height: 40px;
+	width: 200px;
+}
+
+.search button {
+	height: 45px;
+	width: 40px;
+}
+
+/* 内容开头 */
+.content1 {}
+
+.content1 img {
+	width: 1197px;
+	height: 450px;
+	position: absolute;
+	left: 20px;
+}
+
+.grayBox {
+	width: 230px;
+	height: 450px;
+	background-color: #333333;
+	position: relative;
+	left: 20px;
+	opacity: 0.5;
+}
+
+.grayBox li {
+	width: 200px;
+	text-align: center;
+	color: white;
+	padding: 12px;
+}
+
+.grayBox span {
+	float: right;
+}
+
+/* 第二部分 */
+.content2 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 22.5px;
+}
+
+.content2 .fontPic {
+	position: absolute;
+	left: 20px;
+	width: 230px;
+	height: 165px;
+	background-color: #333333;
+	opacity: 0.8;
+}
+
+.content2 .flex1 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 8px;
+}
+
+.content2 .flex2 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.content2 .item {
+	flex: 1;
+	color: #B3AFAC;
+	font-size: 1.3em;
+	padding: 4px;
+	text-align: center;
+}
+
+.content2 img {
+	position: relative;
+	left: 250px;
+	width: 300px;
+	height: 165px;
+	padding-left: 22.5px
+}
+
+/* 中间图片 */
+.center img {
+	width: 1199px;
+	height: 115px;
+	position: absolute;
+	left: 20px;
+	margin-top: 45px;
+	z-index: 10;
+}
+
+/* 中间下部 */
+.centerBot {
+	position: relative;
+	width: 100%;
+	height: 1000px;
+	top: 25px;
+	background-color: #F5F5F5;
+}
+
+.centerBot .leftFont {
+	font-size: 1.5em;
+	position: relative;
+	top: 170px;
+	left: 20px;
+}
+
+.centerBot .rightFont {
+	font-size: 1.3em;
+	position: relative;
+	float: right;
+	top: 138px;
+	right: 40px;
+}
+
+.centerBot .rightFont .rightfont {
+	float: left;
+}
+
+.leftPic img {
+	position: relative;
+	left: 20px;
+	top: 200px;
+	width: 225px;
+	height: 560px;
+}
+
+.flexTop {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	position: relative;
+	left: 246px;
+	top: -364px;
+	width: 973px;
+}
+
+.flexbot {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	left: 246px;
+	top: -355px;
+	width: 973px;
+}
+
+.flexTop img {
+	width: 150px;
+	height: 170px;
+	padding: 20px;
+	padding-left: 32.5px;
+}
+
+.flexbot img {
+	width: 150px;
+	height: 170px;
+	padding: 20px;
+	padding-left: 32.5px;
+}
+
+.all1,
+.all3,
+.all2,
+.all4 {
+	flex: 1;
+	background-color: white;
+	width: 227px;
+	height: 275px;
+	margin-left: 15px;
+	text-align: center;
+}
+
+.all5,
+.all6,
+.all7,
+.all8 {
+	flex: ;
+	background-color: white;
+	width: 239px;
+	height: 275px;
+	margin-left: 15px;
+	text-align: center;
+}
+
+.imgFont {
+	margin-top: -25px;
+	font-size: 0.95em;
+}
+
+.imgFont p {
+	margin-top: 2px;
+	font-size: 0.85em;
+	color: #CFCFCF;
+}
+
+.imgFont .price {
+	color: #FF6700;
+	white-space: nowrap;
+	margin-top: 6px;
+}
+
+.imgFont .underPrice {
+	margin-left: 8px;
+	color: #CFCFCF;
+	text-decoration: line-through;
+}
+
+.lastImg img {
+	width: 1199px;
+	height: 115px;
+	position: absolute;
+	left: 20px;
+	margin-top: -310px;
+	z-index: 10;
+}
+
+/* final 前 */
+.finalContent {
+	position: relative;
+	top: 20px;
+	width: 100%;
+	height: 400px;
+	/* height:600px; */
+	background-color: white;
+	z-index: 11;
+}
+
+.finalContent .finalTop {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 72px;
+}
+
+.finalContent .finalTop li {
+	flex: 1;
+	opacity: 0.7;
+	padding: 30px;
+	padding-left: 80px;
+	font-size: 1.5em;
+}
+
+.finalContent .finalTop li span {
+	font-size: 0.7em;
+}
+
+.finalContent .finalTop .l {
+	color: #B3AFAC;
+}
+
+.finalContent .TopBorder {
+	border: 1px solid #B3AFAC;
+	width: 1200px;
+	position: relative;
+	left: 30px;
+	top: 7px;
+}
+
+/* final中 */
+.fontGroup {
+	width: 988px;
+	position: relative;
+	top: 50px;
+	left: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.fontGroup .g {
+	flex: 1;
+}
+
+.fontGroup .font1 {
+	font-size: 0.8em;
+	line-height: 2.2em;
+	padding-top: 20px;
+	color: #9E9E9E
+}
+
+.finalCenter .leftBorder {
+	position: relative;
+	float: right;
+	top: -128px;
+	right: 304px;
+	z-index: 16;
+	border: 1px solid #9E9E9E;
+	height: 110px;
+	background-color: red;
+	width: 0;
+	opacity: 0.7;
+}
+
+.contact {
+	position: relative;
+	left: 480px;
+	top: -130px;
+	height: 110px;
+	text-align: center;
+}
+
+.contact .num {
+	color: #FF6700;
+	font-size: 1.5em
+}
+
+.contact .time {
+	font-size: 0.8em;
+	color: #9E9E9E;
+}
+
+.contact .server {
+	/* text-align: center; */
+	font-size: 0.8em;
+	width: 110px;
+	height: 22px;
+	border: 1px solid #FF6700;
+	color: #FF6700;
+	position: relative;
+	left: 574px;
+	margin-top: 10px;
+}
+
+.contact .font4 {
+	font-size: 0.8em;
+}
+
+/*final下 */
+.finalbot {
+	height: 260px;
+	background-color: #F5F5F5;
+}
+
+.finalbot img {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+}
+
+.finalbot .logo2 {
+	position: relative;
+	float: left;
+	left: 20px;
+	top: 30px;
+}
+
+.font5 {
+	font-size: 0.8em;
+	opacity: 0.8;
+	line-height: 1.5em;
+}
+
+.font6 {
+	font-size: 0.7em;
+	opacity: 0.4;
+	line-height: 1.65em;
+}
+
+.font7 {
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
